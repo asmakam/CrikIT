@@ -27,7 +27,7 @@ branch: gh-pages
 
 # Any variable you put in this file is also available in the Twig layouts:
 title: CrikIT
-subTitle: An online cricket league management platform.
+subTitle: An online cricket league management platform
 
 # Base URL of the published website (no "/" at the end!)
 # You are advised to set and use this variable to write your links in the HTML layouts
