@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>CrikIT</title>
+
+        <link rel="stylesheet" href="http://asmakam.github.io/CrikIT/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://asmakam.github.io/CrikIT/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://asmakam.github.io/CrikIT/css/highlight.dark.css">
+        <link rel="stylesheet" href="http://asmakam.github.io/CrikIT/css/main.css">
+    </head>
+    <body>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <a class="navbar-brand" href="http://asmakam.github.io/CrikIT/">
+                CrikIT
+                <small class="hidden-xs hidden-sm">
+                    An online cricket league management platform.
+                </small>
+            </a>
+
+                            <a href="https://github.com/asmakam/CrikIT">
+                    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+                </a>
+            
+        </header>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                
+                    <nav id="sidebar" class="col-sm-3 col-lg-2" role="navigation">
+
+                        <ul class="nav nav-pills nav-stacked">
+                                                            <li class="">
+                                    <a href="http://asmakam.github.io/CrikIT/">
+                                        Home page
+                                    </a>
+                                </li>
+                                                            <li class="active">
+                                    <a href="http://asmakam.github.io/CrikIT/docs/PlayerPoints.html">
+                                        Player Points
+                                    </a>
+                                </li>
+                                                            <li class="">
+                                    <a href="http://asmakam.github.io/CrikIT/docs/StartNewSeason.html">
+                                        Start New Season
+                                    </a>
+                                </li>
+                                                    </ul>
+
+                    </nav>
+
+                
+                <section id="content" class="col-sm-offset-3 col-lg-offset-2 col-sm-9 col-lg-10">
+                    <h2 id="player-performance-metrics-ppm">Player Performance Metrics (PPM©)</h2>
+<p>CrikIT platform has now added the capability to enable tournament admins to add specific player performance metrics for each match. The tournament admins can define custom point allocations to different metrics to automatically calculate the performance metrics for a player for individual matches. To get started, please follow the steps outlined below:</p>
+<h3 id="1-enabling-performance-metrics-points">1. Enabling Performance Metrics (Points)</h3>
+<ul>
+<li>Go to  Admin -&gt; Tournaments and click on Edit button for the tournament of interest.</li>
+<li>You should now see a checkbox to enable points:</li>
+</ul>
+<p><img src="https://www.dropbox.com/s/9oytaifhbpe71wk/points1.png?raw=1" alt="enter image description here" /></p>
+<h3 id="2-customize-the-metrics">2. Customize the Metrics</h3>
+<ul>
+<li>Enabling the point system will provide you a detailed view where you will have the capability to add custom point allocations to variety of metrics and each are described below:
+<h4 id="a-batting-metrics">a) Batting Metrics</h4>
+<p><img src="https://www.dropbox.com/s/3hllr5x59o71l1e/points3.png?raw=1" alt="enter image description here" /></p></li>
+</ul>
+<p>The different values for batting metrics are self explanatory. As mentioned in the form, the SR bonuses are only applied if the batsman scores a minimum number of runs which is controlled by the <strong>Minimum number of runs ..</strong> field.
+You can provide any valid integer value (including zero to any of the fields).</p>
+<h4 id="b-bowling-metrics">b) Bowling Metrics</h4>
+<p><img src="https://www.dropbox.com/s/fgdygao3ccblu0u/points4.png?raw=1" alt="enter image description here" /></p>
+<p>Just like batting, you can specify any valid integer values to the different bowling metric fields. Please note the Economy Rate bonuses are only activated if the bowler completes 1 over.</p>
+<h4 id="c-fielding-metrics">c) Fielding Metrics</h4>
+<p><img src="https://www.dropbox.com/s/0rxzii5o50jz11t/points5.png?raw=1" alt="enter image description here" /></p>
+<p>Similarly, you can tweak the points for Fielding. Note, that we provide a <strong>Reset</strong> button in all forms to reset the values to our defaults in case you wish to start from scratch.</p>
+<h3 id="3-computing-metrics">3. Computing Metrics</h3>
+<p>Once the changes to the points have been saved, the metrics are automatically calculated, when the scorecard is approved by the league administrator.<br />
+<strong>NOTE the following:</strong>   </p>
+<ol>
+<li>The metrics are computed at the time of scorecard approval, so scorecards that have been previously approved, will not see these.  You can re-approve the scorecards to see the metrics.</li>
+<li>If the metrics for the tournament are changed, then these changes wont be reflected in scorecards that have been previously approved. You will need to re-approve the existing scorecards.</li>
+</ol>
+<h3 id="4-viewing-the-metrics">4. Viewing the Metrics</h3>
+<p>Currently, these metrics are available in the CHARTS section of approved scorecards for each game.
+<img src="https://www.dropbox.com/s/eoctwjxz15wjbq1/points7.png?raw=1" alt="enter image description here" /></p>
+<p><img src="https://www.dropbox.com/s/txqnuiymtcz1zhm/points6.png?raw=1" alt="enter image description here" /></p>
+<p>Please continue to provide us with  <a href="http://bugs.crikit.io">feedback (bugs and enhancements)</a> .</p>
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <p class="text-muted">
+                    website generated with <a href="http://couscous.io" title="Markdown website generator">Couscous</a>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="//yastatic.net/highlightjs/8.2/highlight.min.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+                // Syntax highlighting
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+    </body>
+</html>
