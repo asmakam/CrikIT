@@ -20,14 +20,14 @@ exclude:
 
 # Set this variable to use a Custom Domain
 # The content of this variable will be directly inserted into the CNAME file
-cname: docs.crikit.io/CrikIT
+cname: docs.crikit.io
 
 # Set the target branch in which to deploy the generated website
 branch: gh-pages
 
 # Any variable you put in this file is also available in the Twig layouts:
 title: CrikIT
-subTitle: An online cricket league management platform
+subTitle: An online cricket league management platform.
 
 # Base URL of the published website (no "/" at the end!)
 # You are advised to set and use this variable to write your links in the HTML layouts
