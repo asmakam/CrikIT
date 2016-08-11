@@ -48,8 +48,8 @@ menu:
         points:
             text: Player Points
             # Or absolute urls
-            relativeUrl: docs/PlayerPoints.html
+            relativeUrl: docs/playerpoints.html
         newseason:
             text: Start New Season
             # Or absolute urls
-            relativeUrl: docs/StartNewSeason.html
+            relativeUrl: docs/startnewseason.html
