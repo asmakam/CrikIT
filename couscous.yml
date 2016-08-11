@@ -20,7 +20,7 @@ exclude:
 
 # Set this variable to use a Custom Domain
 # The content of this variable will be directly inserted into the CNAME file
-#cname: docs.crikit.io
+cname: docs.crikit.io
 
 # Set the target branch in which to deploy the generated website
 branch: gh-pages
